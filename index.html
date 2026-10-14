@@ -69,11 +69,10 @@ svg.i{width:16px;height:16px;flex:none;stroke:currentColor;fill:none;stroke-widt
 /* SECTIONS */
 section{padding:76px 0;border-top:1px solid var(--line)}
 section.alt{background:var(--bg-soft)}
-.sec-head{display:grid;grid-template-columns:240px 1fr;gap:40px;margin-bottom:8px}
-.sec-label{font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--blue);font-weight:600;padding-top:8px}
+.sec-head{margin-bottom:8px}
+.sec-label{font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--blue);font-weight:600;margin-bottom:10px}
 .sec-head h2{font-size:clamp(26px,3.4vw,32px);font-weight:700}
 .sec-head p{margin-top:10px;color:var(--muted);max-width:640px}
-.sec-body{margin-left:280px}
 .mt{margin-top:28px}
 
 .about p{margin-bottom:16px;max-width:720px}
@@ -169,9 +168,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 
 /* RESPONSIVE */
 @media (max-width:960px){
-  .sec-head,.xp{grid-template-columns:1fr;gap:6px}
-  .sec-body{margin-left:0}
-  .sec-label{padding-top:0}
+  .xp{grid-template-columns:1fr;gap:6px}
   .xp .when{padding-top:0}
   .xp .when br{display:none}
   .xp .when .tag{margin:0 0 0 8px}
